@@ -113,10 +113,6 @@
     "language_native": "Հայերեն",
     "other_languages": [
       {
-        "language_code": "hy",
-        "language_native": "Հայերեն"
-      },
-      {
         "language_code": "az",
         "language_native": "azərbaycan dili"
       }
@@ -133,10 +129,6 @@
       {
         "language_code": "ar",
         "language_native": "العربية"
-      },
-      {
-        "language_code": "en",
-        "language_native": "English"
       },
       {
         "language_code": "de",
@@ -163,10 +155,6 @@
       {
         "language_code": "cs",
         "language_native": "česky, čeština"
-      },
-      {
-        "language_code": "de",
-        "language_native": "Deutsch"
       },
       {
         "language_code": "hu",
@@ -222,10 +210,6 @@
     "language_native": "العربية",
     "other_languages": [
       {
-        "language_code": "ar",
-        "language_native": "العربية"
-      },
-      {
         "language_code": "en",
         "language_native": "English"
       }
@@ -238,12 +222,7 @@
     "country_ru": "Бангладеш",
     "language_code": "bn",
     "language_native": "বাংলা",
-    "other_languages": [
-      {
-        "language_code": "bn",
-        "language_native": "বাংলা"
-      }
-    ]
+    "other_languages": []
   },
   {
     "country_iso": 52,
@@ -298,10 +277,6 @@
         "language_native": "Nederlands, Vlaams"
       },
       {
-        "language_code": "fr",
-        "language_native": "français, langue française"
-      },
-      {
         "language_code": "de",
         "language_native": "Deutsch"
       },
@@ -322,12 +297,7 @@
     "country_ru": "Белиз",
     "language_code": "en",
     "language_native": "English",
-    "other_languages": [
-      {
-        "language_code": "en",
-        "language_native": "English"
-      }
-    ]
+    "other_languages": []
   },
   {
     "country_iso": 204,
@@ -412,10 +382,6 @@
       {
         "language_code": "ja",
         "language_native": "日本語 (にほんご／にっぽんご)"
-      },
-      {
-        "language_code": "pt",
-        "language_native": "Português"
       }
     ]
   },
@@ -498,12 +464,7 @@
     "country_ru": "Камбоджа",
     "language_code": "km",
     "language_native": "ភាសាខ្មែរ",
-    "other_languages": [
-      {
-        "language_code": "km",
-        "language_native": "ភាសាខ្មែរ"
-      }
-    ]
+    "other_languages": []
   },
   {
     "country_iso": 120,
@@ -737,10 +698,6 @@
         "language_native": "العربية"
       },
       {
-        "language_code": "da",
-        "language_native": "dansk"
-      },
-      {
         "language_code": "en",
         "language_native": "English"
       },
@@ -845,12 +802,7 @@
     "country_ru": "Египет",
     "language_code": "ar",
     "language_native": "العربية",
-    "other_languages": [
-      {
-        "language_code": "ar",
-        "language_native": "العربية"
-      }
-    ]
+    "other_languages": []
   },
   {
     "country_iso": 222,
@@ -893,10 +845,6 @@
     "language_native": "eesti, eesti keel",
     "other_languages": [
       {
-        "language_code": "et",
-        "language_native": "eesti, eesti keel"
-      },
-      {
         "language_code": "fi",
         "language_native": "suomi, suomen kieli"
       },
@@ -918,10 +866,6 @@
     "language_code": "am",
     "language_native": "አማርኛ",
     "other_languages": [
-      {
-        "language_code": "am",
-        "language_native": "አማርኛ"
-      },
       {
         "language_code": "om",
         "language_native": "Afaan Oromoo"
@@ -968,12 +912,12 @@
         "language_native": "eesti, eesti keel"
       },
       {
-        "language_code": "ru",
-        "language_native": "Русский"
+        "language_code": "fi",
+        "language_native": "suomi, suomen kieli"
       },
       {
-        "language_code": "sv",
-        "language_native": "svenska"
+        "language_code": "ru",
+        "language_native": "Русский"
       }
     ]
   },
@@ -988,6 +932,10 @@
       {
         "language_code": "ar",
         "language_native": "العربية"
+      },
+      {
+        "language_code": "fr",
+        "language_native": "français, langue française"
       },
       {
         "language_code": "it",
@@ -1056,6 +1004,10 @@
     "language_code": "hsb",
     "language_native": null,
     "other_languages": [
+      {
+        "language_code": "de",
+        "language_native": "Deutsch"
+      },
       {
         "language_code": "it",
         "language_native": "Italiano"
@@ -1268,10 +1220,6 @@
         "language_native": "தமிழ்"
       },
       {
-        "language_code": "te",
-        "language_native": "తెలుగు"
-      },
-      {
         "language_code": "ur",
         "language_native": "اردو"
       },
@@ -1329,10 +1277,6 @@
     "language_native": "العربية",
     "other_languages": [
       {
-        "language_code": "ar",
-        "language_native": "العربية"
-      },
-      {
         "language_code": "az",
         "language_native": "azərbaycan dili"
       },
@@ -1357,10 +1301,6 @@
       {
         "language_code": "en",
         "language_native": "English"
-      },
-      {
-        "language_code": "ga",
-        "language_native": "Gaeilge"
       }
     ]
   },
@@ -1448,10 +1388,6 @@
         "language_native": "English"
       },
       {
-        "language_code": "ja",
-        "language_native": "日本語 (にほんご／にっぽんご)"
-      },
-      {
         "language_code": "ko",
         "language_native": "한국어 (韓國語), 조선말 (朝鮮語)"
       }
@@ -1465,10 +1401,6 @@
     "language_code": "ar",
     "language_native": "العربية",
     "other_languages": [
-      {
-        "language_code": "ar",
-        "language_native": "العربية"
-      },
       {
         "language_code": "hy",
         "language_native": "Հայերեն"
@@ -1486,10 +1418,6 @@
       {
         "language_code": "de",
         "language_native": "Deutsch"
-      },
-      {
-        "language_code": "kk",
-        "language_native": "Қазақ тілі"
       },
       {
         "language_code": "ru",
@@ -1535,10 +1463,6 @@
     "language_code": "ar",
     "language_native": "العربية",
     "other_languages": [
-      {
-        "language_code": "ar",
-        "language_native": "العربية"
-      },
       {
         "language_code": "en",
         "language_native": "English"
@@ -1619,10 +1543,6 @@
     "language_native": "العربية",
     "other_languages": [
       {
-        "language_code": "ar",
-        "language_native": "العربية"
-      },
-      {
         "language_code": "hy",
         "language_native": "Հայերեն"
       },
@@ -1672,10 +1592,6 @@
     "language_code": "de",
     "language_native": "Deutsch",
     "other_languages": [
-      {
-        "language_code": "de",
-        "language_native": "Deutsch"
-      },
       {
         "language_code": "it",
         "language_native": "Italiano"
@@ -1763,6 +1679,10 @@
       {
         "language_code": "fr",
         "language_native": "français, langue française"
+      },
+      {
+        "language_code": "mg",
+        "language_native": "Malagasy fiteny"
       }
     ]
   },
@@ -1790,10 +1710,6 @@
       {
         "language_code": "en",
         "language_native": "English"
-      },
-      {
-        "language_code": "ms",
-        "language_native": "bahasa Melayu, بهاس ملايو‎"
       },
       {
         "language_code": "ta",
@@ -1854,6 +1770,10 @@
       {
         "language_code": "en",
         "language_native": "English"
+      },
+      {
+        "language_code": "mh",
+        "language_native": "Kajin M̧ajeļ"
       }
     ]
   },
@@ -1924,10 +1844,6 @@
         "language_native": "English"
       },
       {
-        "language_code": "fr",
-        "language_native": "français, langue française"
-      },
-      {
         "language_code": "it",
         "language_native": "Italiano"
       }
@@ -1963,12 +1879,7 @@
     "country_ru": "Марокко",
     "language_code": "ar",
     "language_native": "العربية",
-    "other_languages": [
-      {
-        "language_code": "ar",
-        "language_native": "العربية"
-      }
-    ]
+    "other_languages": []
   },
   {
     "country_iso": 508,
@@ -2043,10 +1954,6 @@
       {
         "language_code": "hi",
         "language_native": "हिन्दी, हिंदी"
-      },
-      {
-        "language_code": "ne",
-        "language_native": "नेपाली"
       }
     ]
   },
@@ -2061,6 +1968,10 @@
       {
         "language_code": "ar",
         "language_native": "العربية"
+      },
+      {
+        "language_code": "nl",
+        "language_native": "Nederlands, Vlaams"
       },
       {
         "language_code": "tr",
@@ -2122,10 +2033,6 @@
         "language_native": "Hausa, هَوُسَ"
       },
       {
-        "language_code": "yo",
-        "language_native": "Yorùbá"
-      },
-      {
         "language_code": "kr",
         "language_native": "Kanuri"
       }
@@ -2157,6 +2064,10 @@
         "language_native": "English"
       },
       {
+        "language_code": "no",
+        "language_native": "Norsk"
+      },
+      {
         "language_code": "sv",
         "language_native": "svenska"
       }
@@ -2169,12 +2080,7 @@
     "country_ru": "Оман",
     "language_code": "ar",
     "language_native": "العربية",
-    "other_languages": [
-      {
-        "language_code": "ar",
-        "language_native": "العربية"
-      }
-    ]
+    "other_languages": []
   },
   {
     "country_iso": 586,
@@ -2187,10 +2093,6 @@
       {
         "language_code": "sd",
         "language_native": "सिन्धी, سنڌي، سندھی‎"
-      },
-      {
-        "language_code": "ur",
-        "language_native": "اردو"
       }
     ]
   },
@@ -2321,10 +2223,6 @@
     "language_native": "العربية",
     "other_languages": [
       {
-        "language_code": "ar",
-        "language_native": "العربية"
-      },
-      {
         "language_code": "ur",
         "language_native": "اردو"
       }
@@ -2375,6 +2273,10 @@
       {
         "language_code": "kk",
         "language_native": "Қазақ тілі"
+      },
+      {
+        "language_code": "ru",
+        "language_native": "Русский"
       },
       {
         "language_code": "tt",
@@ -2495,12 +2397,7 @@
     "country_ru": "Саудовская Аравия",
     "language_code": "ar",
     "language_native": "العربية",
-    "other_languages": [
-      {
-        "language_code": "ar",
-        "language_native": "العربية"
-      }
-    ]
+    "other_languages": []
   },
   {
     "country_iso": 686,
@@ -2509,12 +2406,7 @@
     "country_ru": "Сенегал",
     "language_code": "wo",
     "language_native": "Wollof",
-    "other_languages": [
-      {
-        "language_code": "wo",
-        "language_native": "Wollof"
-      }
-    ]
+    "other_languages": []
   },
   {
     "country_iso": 688,
@@ -2524,10 +2416,6 @@
     "language_code": "sr",
     "language_native": "српски језик",
     "other_languages": [
-      {
-        "language_code": "sr",
-        "language_native": "српски језик"
-      },
       {
         "language_code": "hu",
         "language_native": "Magyar"
@@ -2628,10 +2516,6 @@
       {
         "language_code": "hu",
         "language_native": "Magyar"
-      },
-      {
-        "language_code": "sl",
-        "language_native": "slovenščina"
       }
     ]
   },
@@ -2655,6 +2539,10 @@
       {
         "language_code": "ar",
         "language_native": "العربية"
+      },
+      {
+        "language_code": "so",
+        "language_native": "Soomaaliga, af Soomaali"
       }
     ]
   },
@@ -2677,10 +2565,6 @@
       {
         "language_code": "ts",
         "language_native": "Xitsonga"
-      },
-      {
-        "language_code": "tn",
-        "language_native": "Setswana"
       },
       {
         "language_code": "ve",
@@ -2794,10 +2678,6 @@
       {
         "language_code": "no",
         "language_native": "Norsk"
-      },
-      {
-        "language_code": "sv",
-        "language_native": "svenska"
       }
     ]
   },
@@ -2820,10 +2700,6 @@
       {
         "language_code": "it",
         "language_native": "Italiano"
-      },
-      {
-        "language_code": "rm",
-        "language_native": "rumantsch grischun"
       }
     ]
   },
@@ -2935,10 +2811,6 @@
     "language_native": "English",
     "other_languages": [
       {
-        "language_code": "en",
-        "language_native": "English"
-      },
-      {
         "language_code": "hi",
         "language_native": "हिन्दी, हिंदी"
       }
@@ -2951,12 +2823,7 @@
     "country_ru": "Тунис",
     "language_code": "ar",
     "language_native": "العربية",
-    "other_languages": [
-      {
-        "language_code": "ar",
-        "language_native": "العربية"
-      }
-    ]
+    "other_languages": []
   },
   {
     "country_iso": 792,
@@ -3040,10 +2907,6 @@
       {
         "language_code": "ru",
         "language_native": "Русский"
-      },
-      {
-        "language_code": "uk",
-        "language_native": "українська"
       }
     ]
   },
@@ -3055,10 +2918,6 @@
     "language_code": "ar",
     "language_native": "العربية",
     "other_languages": [
-      {
-        "language_code": "ar",
-        "language_native": "العربية"
-      },
       {
         "language_code": "hi",
         "language_native": "हिन्दी, हिंदी"
@@ -3152,12 +3011,7 @@
     "country_ru": "Йемен",
     "language_code": "ar",
     "language_native": "العربية",
-    "other_languages": [
-      {
-        "language_code": "ar",
-        "language_native": "العربية"
-      }
-    ]
+    "other_languages": []
   },
   {
     "country_iso": 894,
@@ -3176,10 +3030,6 @@
     "language_code": "en",
     "language_native": "English",
     "other_languages": [
-      {
-        "language_code": "en",
-        "language_native": "English"
-      },
       {
         "language_code": "sn",
         "language_native": "chiShona"

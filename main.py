@@ -52,7 +52,7 @@ def generate() -> None:
             for lang_name in country[0]['languages']:
                 language = [x for x in languages if x['name'].lower() == lang_name.lower()]
                 if language:
-                    if language[0]['code'] == prepared_country['country_code']:
+                    if language[0]['code'] == prepared_country['language_code']:
                         continue
                     _other_languages.append(
                         dict(
