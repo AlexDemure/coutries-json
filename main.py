@@ -11,6 +11,9 @@ def generate() -> None:
     with open("languages.json", "r") as file:
         languages: list[dict] = json.loads(file.read())
 
+    with open("other_languages.json", "r") as file:
+        other_languages: list[dict] = json.loads(file.read())
+
     prepared_countries = []
 
     for country_item in countries_with_languages:
@@ -38,9 +41,26 @@ def generate() -> None:
                country_en=country['en'] if country else country_item['country_name'],
                country_ru=country['ru'] if country else None,
                language_code=language['code'] if language else country_item.get('lang_code'),
-               language_native=language['nativeName'] if language else None
+               language_native=language['nativeName'] if language else None,
             )
         )
+
+    for prepared_country in prepared_countries:
+        _other_languages = []
+        country = [x for x in other_languages if x['country'].lower() == prepared_country['country_en'].lower()]
+        if country:
+            for lang_name in country[0]['languages']:
+                language = [x for x in languages if x['name'].lower() == lang_name.lower()]
+                if language:
+                    if language[0]['code'] == prepared_country['country_code']:
+                        continue
+                    _other_languages.append(
+                        dict(
+                            language_code=language[0]['code'],
+                            language_native=language[0]['nativeName']
+                        )
+                    )
+        prepared_country['other_languages'] = _other_languages
 
     with open("countries.json", "w") as file:
         file.write(json.dumps(prepared_countries, ensure_ascii=False))
