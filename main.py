@@ -18,17 +18,23 @@ def generate() -> None:
 
     for country_item in countries_with_languages:
 
-        language = None
-        if country_item.get('lang_code'):
-            language = [x for x in languages if x['code'].lower() == country_item['lang_code'].lower()]
-            if language:
-                language = language[0]
-
         country = None
         if country_item.get("country_code_name"):
             country = [x for x in world_countries if x['alpha2'].lower() == country_item['country_code_name'].lower()]
             if country:
                 country = country[0]
+
+        if country_item.get('lang_code'):
+            language = [x for x in languages if x['code'].lower() == country_item['lang_code'].lower()]
+
+        elif not country_item.get('lang_code') and country_item.get('country_code_name'):
+            language = [x for x in languages if x['code'].lower() == country_item['country_code_name'].lower()]
+
+        else:
+            language = None
+
+        if language:
+            language = language[0]
 
         if not country and not language:
             print(country_item)

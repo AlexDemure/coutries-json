@@ -45,6 +45,24 @@
     ]
   },
   {
+    "country_iso": "1684",
+    "country_code": "as",
+    "country_en": "American Samoa",
+    "country_ru": null,
+    "language_code": "as",
+    "language_native": "অসমীয়া",
+    "other_languages": [
+      {
+        "language_code": "en",
+        "language_native": "English"
+      },
+      {
+        "language_code": "sm",
+        "language_native": "gagana faa Samoa"
+      }
+    ]
+  },
+  {
     "country_iso": 20,
     "country_code": "ad",
     "country_en": "Andorra",
@@ -197,8 +215,8 @@
     "country_code": "bs",
     "country_en": "Bahamas",
     "country_ru": "Багамские Острова",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "bs",
+    "language_native": "bosanski jezik",
     "other_languages": []
   },
   {
@@ -309,6 +327,20 @@
     "other_languages": []
   },
   {
+    "country_iso": "1441",
+    "country_code": "bm",
+    "country_en": "Bermuda",
+    "country_ru": null,
+    "language_code": "bm",
+    "language_native": "bamanankan",
+    "other_languages": [
+      {
+        "language_code": "en",
+        "language_native": "English"
+      }
+    ]
+  },
+  {
     "country_iso": 64,
     "country_code": "bt",
     "country_en": "Bhutan",
@@ -386,6 +418,15 @@
     ]
   },
   {
+    "country_iso": "246",
+    "country_code": "io",
+    "country_en": "British Indian Ocean Territory",
+    "country_ru": null,
+    "language_code": "io",
+    "language_native": "Ido",
+    "other_languages": []
+  },
+  {
     "country_iso": 96,
     "country_code": "bn",
     "country_en": "Brunei Darussalam",
@@ -440,8 +481,8 @@
     "country_code": "bi",
     "country_en": "Burundi",
     "country_ru": "Бурунди",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "bi",
+    "language_native": "Bislama",
     "other_languages": [
       {
         "language_code": "fr",
@@ -526,9 +567,23 @@
     "country_code": "cv",
     "country_en": "Cabo Verde",
     "country_ru": "Кабо-Верде",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "cv",
+    "language_native": "чӑваш чӗлхи",
     "other_languages": []
+  },
+  {
+    "country_iso": "1345",
+    "country_code": "ky",
+    "country_en": "Cayman Islands",
+    "country_ru": null,
+    "language_code": "ky",
+    "language_native": "кыргыз тили",
+    "other_languages": [
+      {
+        "language_code": "en",
+        "language_native": "English"
+      }
+    ]
   },
   {
     "country_iso": 140,
@@ -594,8 +649,8 @@
     "country_code": "km",
     "country_en": "Comoros",
     "country_ru": "Коморы",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "km",
+    "language_native": "ភាសាខ្មែរ",
     "other_languages": []
   },
   {
@@ -658,8 +713,8 @@
     "country_code": "cu",
     "country_en": "Cuba",
     "country_ru": "Куба",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "cu",
+    "language_native": "ѩзыкъ словѣньскъ",
     "other_languages": []
   },
   {
@@ -667,8 +722,8 @@
     "country_code": "cy",
     "country_en": "Cyprus",
     "country_ru": "Кипр",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "cy",
+    "language_native": "Cymraeg",
     "other_languages": [
       {
         "language_code": "tr",
@@ -782,8 +837,8 @@
     "country_code": "tl",
     "country_en": "Timor-Leste",
     "country_ru": "Восточный Тимор",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "tl",
+    "language_native": "Wikang Tagalog, ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔",
     "other_languages": []
   },
   {
@@ -895,8 +950,8 @@
     "country_code": "fj",
     "country_en": "Fiji",
     "country_ru": "Фиджи",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "fj",
+    "language_native": "vosa Vakaviti",
     "other_languages": []
   },
   {
@@ -956,8 +1011,8 @@
     "country_code": "ga",
     "country_en": "Gabon",
     "country_ru": "Габон",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "ga",
+    "language_native": "Gaeilge",
     "other_languages": []
   },
   {
@@ -1073,9 +1128,35 @@
     "country_code": "gd",
     "country_en": "Grenada",
     "country_ru": "Гренада",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "gd",
+    "language_native": "Gàidhlig",
     "other_languages": []
+  },
+  {
+    "country_iso": "1671",
+    "country_code": "gu",
+    "country_en": "Guam",
+    "country_ru": null,
+    "language_code": "gu",
+    "language_native": "ગુજરાતી",
+    "other_languages": [
+      {
+        "language_code": "ch",
+        "language_native": "Chamoru"
+      },
+      {
+        "language_code": "en",
+        "language_native": "English"
+      },
+      {
+        "language_code": "ja",
+        "language_native": "日本語 (にほんご／にっぽんご)"
+      },
+      {
+        "language_code": "ko",
+        "language_native": "한국어 (韓國語), 조선말 (朝鮮語)"
+      }
+    ]
   },
   {
     "country_iso": 320,
@@ -1091,8 +1172,8 @@
     "country_code": "gn",
     "country_en": "Guinea",
     "country_ru": "Гвинея",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "gn",
+    "language_native": "Avañeẽ",
     "other_languages": []
   },
   {
@@ -1123,8 +1204,8 @@
     "country_code": "ht",
     "country_en": "Haiti",
     "country_ru": "Гаити",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "ht",
+    "language_native": "Kreyòl ayisyen",
     "other_languages": [
       {
         "language_code": "fr",
@@ -1451,8 +1532,8 @@
     "country_code": "ki",
     "country_en": "Kiribati",
     "country_ru": "Кирибати",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "ki",
+    "language_native": "Gĩkũyũ",
     "other_languages": []
   },
   {
@@ -1673,16 +1754,12 @@
     "country_code": "mg",
     "country_en": "Madagascar",
     "country_ru": "Мадагаскар",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "mg",
+    "language_native": "Malagasy fiteny",
     "other_languages": [
       {
         "language_code": "fr",
         "language_native": "français, langue française"
-      },
-      {
-        "language_code": "mg",
-        "language_native": "Malagasy fiteny"
       }
     ]
   },
@@ -1736,8 +1813,8 @@
     "country_code": "ml",
     "country_en": "Mali",
     "country_ru": "Мали",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "ml",
+    "language_native": "മലയാളം",
     "other_languages": [
       {
         "language_code": "bm",
@@ -1764,16 +1841,12 @@
     "country_code": "mh",
     "country_en": "Marshall Islands",
     "country_ru": "Маршалловы Острова",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "mh",
+    "language_native": "Kajin M̧ajeļ",
     "other_languages": [
       {
         "language_code": "en",
         "language_native": "English"
-      },
-      {
-        "language_code": "mh",
-        "language_native": "Kajin M̧ajeļ"
       }
     ]
   },
@@ -1782,8 +1855,8 @@
     "country_code": "mr",
     "country_en": "Mauritania",
     "country_ru": "Мавритания",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "mr",
+    "language_native": "मराठी",
     "other_languages": [
       {
         "language_code": "wo",
@@ -1873,6 +1946,20 @@
     "other_languages": []
   },
   {
+    "country_iso": "1664",
+    "country_code": "ms",
+    "country_en": "Montserrat",
+    "country_ru": null,
+    "language_code": "ms",
+    "language_native": "bahasa Melayu, بهاس ملايو‎",
+    "other_languages": [
+      {
+        "language_code": "en",
+        "language_native": "English"
+      }
+    ]
+  },
+  {
     "country_iso": 504,
     "country_code": "ma",
     "country_en": "Morocco",
@@ -1904,8 +1991,8 @@
     "country_code": "na",
     "country_en": "Namibia",
     "country_ru": "Намибия",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "na",
+    "language_native": "Ekakairũ Naoero",
     "other_languages": [
       {
         "language_code": "af",
@@ -1926,8 +2013,8 @@
     "country_code": "nr",
     "country_en": "Nauru",
     "country_ru": "Науру",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "nr",
+    "language_native": "isiNdebele",
     "other_languages": [
       {
         "language_code": "zh",
@@ -2007,8 +2094,8 @@
     "country_code": "ne",
     "country_en": "Niger",
     "country_ru": "Нигер",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "ne",
+    "language_native": "नेपाली",
     "other_languages": [
       {
         "language_code": "ha",
@@ -2111,6 +2198,20 @@
       {
         "language_code": "en",
         "language_native": "English"
+      }
+    ]
+  },
+  {
+    "country_iso": "970",
+    "country_code": "ps",
+    "country_en": "Palestine",
+    "country_ru": null,
+    "language_code": "ps",
+    "language_native": "پښتو",
+    "other_languages": [
+      {
+        "language_code": "ar",
+        "language_native": "العربية"
       }
     ]
   },
@@ -2307,8 +2408,8 @@
     "country_code": "kn",
     "country_en": "Saint Kitts and Nevis",
     "country_ru": "Сент-Китс и Невис",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "kn",
+    "language_native": "ಕನ್ನಡ",
     "other_languages": [
       {
         "language_code": "en",
@@ -2367,8 +2468,8 @@
     "country_code": "sm",
     "country_en": "San Marino",
     "country_ru": "Сан-Марино",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "sm",
+    "language_native": "gagana faa Samoa",
     "other_languages": [
       {
         "language_code": "it",
@@ -2381,8 +2482,8 @@
     "country_code": "st",
     "country_en": "Sao Tome and Principe",
     "country_ru": "Сан-Томе и Принсипи",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "st",
+    "language_native": "Sesotho",
     "other_languages": [
       {
         "language_code": "fr",
@@ -2447,8 +2548,8 @@
     "country_code": "sc",
     "country_en": "Seychelles",
     "country_ru": "Сейшельские Острова",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "sc",
+    "language_native": "sardu",
     "other_languages": [
       {
         "language_code": "en",
@@ -2465,8 +2566,8 @@
     "country_code": "sl",
     "country_en": "Sierra Leone",
     "country_ru": "Сьерра-Леоне",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "sl",
+    "language_native": "slovenščina",
     "other_languages": []
   },
   {
@@ -2533,16 +2634,12 @@
     "country_code": "so",
     "country_en": "Somalia",
     "country_ru": "Сомали",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "so",
+    "language_native": "Soomaaliga, af Soomaali",
     "other_languages": [
       {
         "language_code": "ar",
         "language_native": "العربية"
-      },
-      {
-        "language_code": "so",
-        "language_native": "Soomaaliga, af Soomaali"
       }
     ]
   },
@@ -2590,8 +2687,8 @@
     "country_code": "ss",
     "country_en": "South Sudan",
     "country_ru": "Южный Судан",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "ss",
+    "language_native": "SiSwati",
     "other_languages": []
   },
   {
@@ -2627,8 +2724,8 @@
     "country_code": "sd",
     "country_en": "Sudan",
     "country_ru": "Судан",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "sd",
+    "language_native": "सिन्धी, سنڌي، سندھی‎",
     "other_languages": [
       {
         "language_code": "ar",
@@ -2641,8 +2738,8 @@
     "country_code": "sr",
     "country_en": "Suriname",
     "country_ru": "Суринам",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "sr",
+    "language_native": "српски језик",
     "other_languages": [
       {
         "language_code": "hi",
@@ -2779,8 +2876,8 @@
     "country_code": "tg",
     "country_en": "Togo",
     "country_ru": "Того",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "tg",
+    "language_native": "тоҷикӣ, toğikī, تاجیکی‎",
     "other_languages": [
       {
         "language_code": "ee",
@@ -2789,12 +2886,26 @@
     ]
   },
   {
+    "country_iso": "690",
+    "country_code": "tk",
+    "country_en": "Tokelau",
+    "country_ru": null,
+    "language_code": "tk",
+    "language_native": "Türkmen, Түркмен",
+    "other_languages": [
+      {
+        "language_code": "en",
+        "language_native": "English"
+      }
+    ]
+  },
+  {
     "country_iso": 776,
     "country_code": "to",
     "country_en": "Tonga",
     "country_ru": "Тонга",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "to",
+    "language_native": "faka Tonga",
     "other_languages": [
       {
         "language_code": "en",
@@ -2875,8 +2986,8 @@
     "country_code": "ug",
     "country_en": "Uganda",
     "country_ru": "Уганда",
-    "language_code": null,
-    "language_native": null,
+    "language_code": "ug",
+    "language_native": "Uyƣurqə, ئۇيغۇرچە‎",
     "other_languages": []
   },
   {
@@ -3000,6 +3111,15 @@
     "country_code": "vn",
     "country_en": "Viet Nam",
     "country_ru": "Вьетнам",
+    "language_code": "vi",
+    "language_native": "Tiếng Việt",
+    "other_languages": []
+  },
+  {
+    "country_iso": "1340",
+    "country_code": "vi",
+    "country_en": "Virgin Islands",
+    "country_ru": null,
     "language_code": "vi",
     "language_native": "Tiếng Việt",
     "other_languages": []
