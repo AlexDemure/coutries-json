@@ -27,6 +27,10 @@ def generate() -> None:
             if country:
                 country = country[0]
 
+        if not country and language:
+            print(country_item)
+            continue
+
         prepared_countries.append(
             dict(
                country_iso=country['id'] if country else None,
