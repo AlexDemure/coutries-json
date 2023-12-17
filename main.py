@@ -33,11 +33,11 @@ def generate() -> None:
 
         prepared_countries.append(
             dict(
-               country_iso=country['id'] if country else None,
-               country_code=country['alpha2'] if country else None,
-               country_en=country['en'] if country else None,
+               country_iso=country['id'] if country else country_item['country_code'],
+               country_code=country['alpha2'] if country else country_item['country_code_name'],
+               country_en=country['en'] if country else country_item['country_name'],
                country_ru=country['ru'] if country else None,
-               language_code=language['code'] if language else None,
+               language_code=language['code'] if language else country_item.get('lang_code'),
                language_native=language['nativeName'] if language else None
             )
         )
