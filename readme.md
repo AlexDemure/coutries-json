@@ -27,14 +27,6 @@
     "language_native": null
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
     "country_iso": 20,
     "country_code": "ad",
     "country_en": "Andorra",
@@ -47,14 +39,6 @@
     "country_code": "ao",
     "country_en": "Angola",
     "country_ru": "Ангола",
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
     "language_code": null,
     "language_native": null
   },
@@ -81,14 +65,6 @@
     "country_ru": "Армения",
     "language_code": "hy",
     "language_native": "Հայերեն"
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
   },
   {
     "country_iso": 36,
@@ -179,14 +155,6 @@
     "language_native": null
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
     "country_iso": 64,
     "country_code": "bt",
     "country_en": "Bhutan",
@@ -225,22 +193,6 @@
     "country_ru": "Бразилия",
     "language_code": "pt",
     "language_native": "Português"
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
   },
   {
     "country_iso": 96,
@@ -315,14 +267,6 @@
     "language_native": null
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
     "country_iso": 140,
     "country_code": "cf",
     "country_en": "Central African Republic",
@@ -355,14 +299,6 @@
     "language_native": "ꆈꌠ꒿ Nuosuhxop"
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
     "country_iso": 170,
     "country_code": "co",
     "country_en": "Colombia",
@@ -391,14 +327,6 @@
     "country_code": "cd",
     "country_en": "Congo, Democratic Republic of the",
     "country_ru": "ДР Конго",
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
     "language_code": null,
     "language_native": null
   },
@@ -555,6 +483,14 @@
     "language_native": "አማርኛ"
   },
   {
+    "country_iso": null,
+    "country_code": null,
+    "country_en": null,
+    "country_ru": null,
+    "language_code": "fo",
+    "language_native": "føroyskt"
+  },
+  {
     "country_iso": 242,
     "country_code": "fj",
     "country_en": "Fiji",
@@ -577,22 +513,6 @@
     "country_ru": "Франция",
     "language_code": "oc",
     "language_native": "Occitan"
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
   },
   {
     "country_iso": 266,
@@ -635,14 +555,6 @@
     "language_native": null
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
     "country_iso": 300,
     "country_code": "gr",
     "country_en": "Greece",
@@ -651,26 +563,18 @@
     "language_native": "Ελληνικά"
   },
   {
+    "country_iso": null,
+    "country_code": null,
+    "country_en": null,
+    "country_ru": null,
+    "language_code": "kl",
+    "language_native": "kalaallisut, kalaallit oqaasii"
+  },
+  {
     "country_iso": 308,
     "country_code": "gd",
     "country_en": "Grenada",
     "country_ru": "Гренада",
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
     "language_code": null,
     "language_native": null
   },
@@ -721,6 +625,14 @@
     "country_ru": "Гондурас",
     "language_code": "es",
     "language_native": "español, castellano"
+  },
+  {
+    "country_iso": null,
+    "country_code": null,
+    "country_en": null,
+    "country_ru": null,
+    "language_code": "zh",
+    "language_native": "中文 (Zhōngwén), 汉语, 漢語"
   },
   {
     "country_iso": 348,
@@ -939,6 +851,14 @@
     "language_native": "Lëtzebuergesch"
   },
   {
+    "country_iso": null,
+    "country_code": null,
+    "country_en": null,
+    "country_ru": null,
+    "language_code": "zh",
+    "language_native": "中文 (Zhōngwén), 汉语, 漢語"
+  },
+  {
     "country_iso": 807,
     "country_code": "mk",
     "country_en": "North Macedonia",
@@ -1003,14 +923,6 @@
     "language_native": null
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
     "country_iso": 478,
     "country_code": "mr",
     "country_en": "Mauritania",
@@ -1023,14 +935,6 @@
     "country_code": "mu",
     "country_en": "Mauritius",
     "country_ru": "Маврикий",
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
     "language_code": null,
     "language_native": null
   },
@@ -1073,14 +977,6 @@
     "country_ru": "Черногория",
     "language_code": "sr",
     "language_native": "српски језик"
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
   },
   {
     "country_iso": 504,
@@ -1131,22 +1027,6 @@
     "language_native": "Frysk"
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
     "country_iso": 554,
     "country_code": "nz",
     "country_en": "New Zealand",
@@ -1177,30 +1057,6 @@
     "country_ru": "Нигерия",
     "language_code": "yo",
     "language_native": "Yorùbá"
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
   },
   {
     "country_iso": 408,
@@ -1239,14 +1095,6 @@
     "country_code": "pw",
     "country_en": "Palau",
     "country_ru": "Палау",
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
     "language_code": null,
     "language_native": null
   },
@@ -1291,14 +1139,6 @@
     "language_native": "English"
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
     "country_iso": 616,
     "country_code": "pl",
     "country_en": "Poland",
@@ -1315,20 +1155,20 @@
     "language_native": "Português"
   },
   {
+    "country_iso": null,
+    "country_code": null,
+    "country_en": null,
+    "country_ru": null,
+    "language_code": "es",
+    "language_native": "español, castellano"
+  },
+  {
     "country_iso": 634,
     "country_code": "qa",
     "country_en": "Qatar",
     "country_ru": "Катар",
     "language_code": "ar",
     "language_native": "العربية"
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
   },
   {
     "country_iso": 642,
@@ -1355,14 +1195,6 @@
     "language_native": "Ikinyarwanda"
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
     "country_iso": 659,
     "country_code": "kn",
     "country_en": "Saint Kitts and Nevis",
@@ -1375,22 +1207,6 @@
     "country_code": "lc",
     "country_en": "Saint Lucia",
     "country_ru": "Сент-Люсия",
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
     "language_code": null,
     "language_native": null
   },
@@ -1455,14 +1271,6 @@
     "country_code": "sc",
     "country_en": "Seychelles",
     "country_ru": "Сейшельские Острова",
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
     "language_code": null,
     "language_native": null
   },
@@ -1603,6 +1411,14 @@
     "language_native": null
   },
   {
+    "country_iso": null,
+    "country_code": null,
+    "country_en": null,
+    "country_ru": null,
+    "language_code": "zh",
+    "language_native": "中文 (Zhōngwén), 汉语, 漢語"
+  },
+  {
     "country_iso": 762,
     "country_code": "tj",
     "country_en": "Tajikistan",
@@ -1631,14 +1447,6 @@
     "country_code": "tg",
     "country_en": "Togo",
     "country_ru": "Того",
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
     "language_code": null,
     "language_native": null
   },
@@ -1681,14 +1489,6 @@
     "country_ru": "Туркменистан",
     "language_code": "tk",
     "language_native": "Türkmen, Түркмен"
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
   },
   {
     "country_iso": 798,
@@ -1777,22 +1577,6 @@
     "country_ru": "Вьетнам",
     "language_code": "vi",
     "language_native": "Tiếng Việt"
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": null,
-    "language_native": null
   },
   {
     "country_iso": 887,

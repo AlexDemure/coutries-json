@@ -27,7 +27,7 @@ def generate() -> None:
             if country:
                 country = country[0]
 
-        if not country and language:
+        if not country and not language:
             print(country_item)
             continue
 
