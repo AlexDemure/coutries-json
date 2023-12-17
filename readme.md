@@ -555,14 +555,6 @@
     "language_native": "አማርኛ"
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": "fo",
-    "language_native": "føroyskt"
-  },
-  {
     "country_iso": 242,
     "country_code": "fj",
     "country_en": "Fiji",
@@ -659,14 +651,6 @@
     "language_native": "Ελληνικά"
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": "kl",
-    "language_native": "kalaallisut, kalaallit oqaasii"
-  },
-  {
     "country_iso": 308,
     "country_code": "gd",
     "country_en": "Grenada",
@@ -737,14 +721,6 @@
     "country_ru": "Гондурас",
     "language_code": "es",
     "language_native": "español, castellano"
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": "zh",
-    "language_native": "中文 (Zhōngwén), 汉语, 漢語"
   },
   {
     "country_iso": 348,
@@ -961,14 +937,6 @@
     "country_ru": "Люксембург",
     "language_code": "lb",
     "language_native": "Lëtzebuergesch"
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": "zh",
-    "language_native": "中文 (Zhōngwén), 汉语, 漢語"
   },
   {
     "country_iso": 807,
@@ -1347,14 +1315,6 @@
     "language_native": "Português"
   },
   {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": "es",
-    "language_native": "español, castellano"
-  },
-  {
     "country_iso": 634,
     "country_code": "qa",
     "country_en": "Qatar",
@@ -1641,14 +1601,6 @@
     "country_ru": "Сирия",
     "language_code": null,
     "language_native": null
-  },
-  {
-    "country_iso": null,
-    "country_code": null,
-    "country_en": null,
-    "country_ru": null,
-    "language_code": "zh",
-    "language_native": "中文 (Zhōngwén), 汉语, 漢語"
   },
   {
     "country_iso": 762,
