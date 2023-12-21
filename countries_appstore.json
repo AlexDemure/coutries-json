@@ -1,0 +1,704 @@
+[
+    {
+        "Country name": "Afghanistan",
+        "Country code": "af",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Algeria",
+        "Country code": "dz",
+        "iOS languages": "ar, en",
+        "Android languages": "ar, en"
+    },
+    {
+        "Country name": "Angola",
+        "Country code": "ao",
+        "iOS languages": "-",
+        "Android languages": "en, ao"
+    },
+    {
+        "Country name": "Argentina",
+        "Country code": "ar",
+        "iOS languages": "sp, en",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Australia",
+        "Country code": "au",
+        "iOS languages": "au",
+        "Android languages": "au"
+    },
+    {
+        "Country name": "Austria",
+        "Country code": "at",
+        "iOS languages": "de, en",
+        "Android languages": "de, en"
+    },
+    {
+        "Country name": "Bangladesh",
+        "Country code": "bd",
+        "iOS languages": "-",
+        "Android languages": "en, bn"
+    },
+    {
+        "Country name": "Belarus",
+        "Country code": "by",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Belgium",
+        "Country code": "be",
+        "iOS languages": "en, fr, nl",
+        "Android languages": "en, fr, nl"
+    },
+    {
+        "Country name": "Bolivia",
+        "Country code": "bo",
+        "iOS languages": "-",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Bosnia And Herzegovina",
+        "Country code": "ba",
+        "iOS languages": "hr, en",
+        "Android languages": "hr, en"
+    },
+    {
+        "Country name": "Botswana",
+        "Country code": "bw",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Brazil",
+        "Country code": "br",
+        "iOS languages": "br, en",
+        "Android languages": "br, en"
+    },
+    {
+        "Country name": "Bulgaria",
+        "Country code": "bg",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Cambodia",
+        "Country code": "kh",
+        "iOS languages": "en",
+        "Android languages": "en, km"
+    },
+    {
+        "Country name": "Cameroon",
+        "Country code": "cm",
+        "iOS languages": "fr, en",
+        "Android languages": "fr, en"
+    },
+    {
+        "Country name": "Canada",
+        "Country code": "ca",
+        "iOS languages": "ca, qu",
+        "Android languages": "ca, qu"
+    },
+    {
+        "Country name": "Chile",
+        "Country code": "cl",
+        "iOS languages": "sp, en",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "China",
+        "Country code": "cn",
+        "iOS languages": "cn, en",
+        "Android languages": "cn, en"
+    },
+    {
+        "Country name": "Colombia",
+        "Country code": "co",
+        "iOS languages": "sp, en",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Congo, The Democratic Republic Of The",
+        "Country code": "cd",
+        "iOS languages": "fr, en",
+        "Android languages": "fr, en"
+    },
+    {
+        "Country name": "Costa Rica",
+        "Country code": "cr",
+        "iOS languages": "-",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Cote D'ivoire",
+        "Country code": "ci",
+        "iOS languages": "fr, en",
+        "Android languages": "fr, en"
+    },
+    {
+        "Country name": "Croatia",
+        "Country code": "hr",
+        "iOS languages": "hr, en",
+        "Android languages": "hr, en"
+    },
+    {
+        "Country name": "Cyprus",
+        "Country code": "cy",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Czech Republic",
+        "Country code": "cz",
+        "iOS languages": "cs, en",
+        "Android languages": "cs, en"
+    },
+    {
+        "Country name": "Denmark",
+        "Country code": "dk",
+        "iOS languages": "da, en",
+        "Android languages": "da, en"
+    },
+    {
+        "Country name": "Dominican Republic",
+        "Country code": "do",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Ecuador",
+        "Country code": "ec",
+        "iOS languages": "sp, en",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Egypt",
+        "Country code": "eg",
+        "iOS languages": "ar, en",
+        "Android languages": "ar, en"
+    },
+    {
+        "Country name": "El Salvador",
+        "Country code": "sv",
+        "iOS languages": "-",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Estonia",
+        "Country code": "ee",
+        "iOS languages": "en",
+        "Android languages": "en, et"
+    },
+    {
+        "Country name": "Finland",
+        "Country code": "fi",
+        "iOS languages": "fi, en",
+        "Android languages": "fi, en"
+    },
+    {
+        "Country name": "France",
+        "Country code": "fr",
+        "iOS languages": "fr, en",
+        "Android languages": "fr, en"
+    },
+    {
+        "Country name": "Gabon",
+        "Country code": "ga",
+        "iOS languages": "fr, en",
+        "Android languages": "fr, en"
+    },
+    {
+        "Country name": "Georgia",
+        "Country code": "ge",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Germany",
+        "Country code": "de",
+        "iOS languages": "de, en",
+        "Android languages": "de, en"
+    },
+    {
+        "Country name": "Greece",
+        "Country code": "gr",
+        "iOS languages": "el, en",
+        "Android languages": "el, en"
+    },
+    {
+        "Country name": "Guatemala",
+        "Country code": "gt",
+        "iOS languages": "-",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Honduras",
+        "Country code": "hn",
+        "iOS languages": "-",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Hong Kong",
+        "Country code": "hk",
+        "iOS languages": "zh, en",
+        "Android languages": "hk, zh, en"
+    },
+    {
+        "Country name": "Hungary",
+        "Country code": "hu",
+        "iOS languages": "hu, en",
+        "Android languages": "hu, en"
+    },
+    {
+        "Country name": "Iceland",
+        "Country code": "is",
+        "iOS languages": "en",
+        "Android languages": "en, is"
+    },
+    {
+        "Country name": "India",
+        "Country code": "in",
+        "iOS languages": "en, hi",
+        "Android languages": "in, en, hi, ta, mr, te, kn, ml, bn, pa"
+    },
+    {
+        "Country name": "Indonesia",
+        "Country code": "id",
+        "iOS languages": "id, en",
+        "Android languages": "id, en"
+    },
+    {
+        "Country name": "Iran, Islamic Republic Of",
+        "Country code": "ir",
+        "iOS languages": "-",
+        "Android languages": "en, fa"
+    },
+    {
+        "Country name": "Iraq",
+        "Country code": "iq",
+        "iOS languages": "en",
+        "Android languages": "en, ar"
+    },
+    {
+        "Country name": "Ireland",
+        "Country code": "ie",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Israel",
+        "Country code": "il",
+        "iOS languages": "he, en",
+        "Android languages": "he, en"
+    },
+    {
+        "Country name": "Italy",
+        "Country code": "it",
+        "iOS languages": "it, en",
+        "Android languages": "it, en"
+    },
+    {
+        "Country name": "Japan",
+        "Country code": "jp",
+        "iOS languages": "ja, us",
+        "Android languages": "ja, us"
+    },
+    {
+        "Country name": "Jordan",
+        "Country code": "jo",
+        "iOS languages": "ar, en",
+        "Android languages": "ar, en"
+    },
+    {
+        "Country name": "Kazakstan",
+        "Country code": "kz",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Kenya",
+        "Country code": "ke",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Korea, Republic Of",
+        "Country code": "kr",
+        "iOS languages": "ko, en",
+        "Android languages": "ko, en"
+    },
+    {
+        "Country name": "Kuwait",
+        "Country code": "kw",
+        "iOS languages": "ar, en",
+        "Android languages": "ar, en"
+    },
+    {
+        "Country name": "Lao People's Democratic Republic",
+        "Country code": "la",
+        "iOS languages": "-",
+        "Android languages": "en, lo"
+    },
+    {
+        "Country name": "Latvia",
+        "Country code": "lv",
+        "iOS languages": "en",
+        "Android languages": "en, lv"
+    },
+    {
+        "Country name": "Lebanon",
+        "Country code": "lb",
+        "iOS languages": "ar, en",
+        "Android languages": "ar, en"
+    },
+    {
+        "Country name": "Libyan Arab Jamahiriya",
+        "Country code": "ly",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Lithuania",
+        "Country code": "lt",
+        "iOS languages": "en",
+        "Android languages": "en, lt"
+    },
+    {
+        "Country name": "Luxembourg",
+        "Country code": "lu",
+        "iOS languages": "en, fr, de",
+        "Android languages": "en, fr, de"
+    },
+    {
+        "Country name": "Macau",
+        "Country code": "mo",
+        "iOS languages": "zh, en",
+        "Android languages": "zh, en"
+    },
+    {
+        "Country name": "Malawi",
+        "Country code": "mw",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Malaysia",
+        "Country code": "my",
+        "iOS languages": "ms, en",
+        "Android languages": "ms, en, cn"
+    },
+    {
+        "Country name": "Maldives",
+        "Country code": "mv",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Mexico",
+        "Country code": "mx",
+        "iOS languages": "sp, en",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Montenegro",
+        "Country code": "me",
+        "iOS languages": "hr, en",
+        "Android languages": "hr, en"
+    },
+    {
+        "Country name": "Morocco",
+        "Country code": "ma",
+        "iOS languages": "fr, en",
+        "Android languages": "fr, en"
+    },
+    {
+        "Country name": "Myanmar",
+        "Country code": "mm",
+        "iOS languages": "en",
+        "Android languages": "en, my"
+    },
+    {
+        "Country name": "Nauru",
+        "Country code": "nr",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Netherlands",
+        "Country code": "nl",
+        "iOS languages": "nl, en",
+        "Android languages": "nl, en"
+    },
+    {
+        "Country name": "New Zealand",
+        "Country code": "nz",
+        "iOS languages": "au",
+        "Android languages": "au"
+    },
+    {
+        "Country name": "Nicaragua",
+        "Country code": "ni",
+        "iOS languages": "-",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Nigeria",
+        "Country code": "ng",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Norway",
+        "Country code": "no",
+        "iOS languages": "no, en",
+        "Android languages": "no, en"
+    },
+    {
+        "Country name": "Oman",
+        "Country code": "om",
+        "iOS languages": "ar, en",
+        "Android languages": "ar, en"
+    },
+    {
+        "Country name": "Pakistan",
+        "Country code": "pk",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Panama",
+        "Country code": "pa",
+        "iOS languages": "-",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Paraguay",
+        "Country code": "py",
+        "iOS languages": "-",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Peru",
+        "Country code": "pe",
+        "iOS languages": "sp, en",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Philippines",
+        "Country code": "ph",
+        "iOS languages": "en",
+        "Android languages": "en, ph"
+    },
+    {
+        "Country name": "Poland",
+        "Country code": "pl",
+        "iOS languages": "pl, en",
+        "Android languages": "pl, en"
+    },
+    {
+        "Country name": "Portugal",
+        "Country code": "pt",
+        "iOS languages": "pt, en",
+        "Android languages": "pt, en"
+    },
+    {
+        "Country name": "Qatar",
+        "Country code": "qa",
+        "iOS languages": "ar, en",
+        "Android languages": "ar, en"
+    },
+    {
+        "Country name": "Romania",
+        "Country code": "ro",
+        "iOS languages": "ro, en",
+        "Android languages": "ro, en"
+    },
+    {
+        "Country name": "Russian Federation",
+        "Country code": "ru",
+        "iOS languages": "ru, en",
+        "Android languages": "ru, en"
+    },
+    {
+        "Country name": "Rwanda",
+        "Country code": "rw",
+        "iOS languages": "fr, en",
+        "Android languages": "fr, en"
+    },
+    {
+        "Country name": "Saudi Arabia",
+        "Country code": "sa",
+        "iOS languages": "ar, en",
+        "Android languages": "ar, en"
+    },
+    {
+        "Country name": "Senegal",
+        "Country code": "sn",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Serbia",
+        "Country code": "rs",
+        "iOS languages": "hr, en",
+        "Android languages": "hr, en"
+    },
+    {
+        "Country name": "Singapore",
+        "Country code": "sg",
+        "iOS languages": "en, cn",
+        "Android languages": "en, cn"
+    },
+    {
+        "Country name": "Slovakia",
+        "Country code": "sk",
+        "iOS languages": "sk, en",
+        "Android languages": "sk, en"
+    },
+    {
+        "Country name": "Slovenia",
+        "Country code": "si",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "South Africa",
+        "Country code": "za",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Spain",
+        "Country code": "es",
+        "iOS languages": "es, ct, en",
+        "Android languages": "es, ct, en"
+    },
+    {
+        "Country name": "Sri Lanka",
+        "Country code": "lk",
+        "iOS languages": "-",
+        "Android languages": "en, si"
+    },
+    {
+        "Country name": "Sweden",
+        "Country code": "se",
+        "iOS languages": "sv, en",
+        "Android languages": "sv, en"
+    },
+    {
+        "Country name": "Switzerland",
+        "Country code": "ch",
+        "iOS languages": "de, fr, it, en",
+        "Android languages": "de, fr, it, en"
+    },
+    {
+        "Country name": "Taiwan, Province Of China",
+        "Country code": "tw",
+        "iOS languages": "zh, en",
+        "Android languages": "zh, en"
+    },
+    {
+        "Country name": "Tanzania",
+        "Country code": "tz",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Thailand",
+        "Country code": "th",
+        "iOS languages": "th, en",
+        "Android languages": "th, en"
+    },
+    {
+        "Country name": "The Republic of Kosovo",
+        "Country code": "xk",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Tonga",
+        "Country code": "to",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Tunisia",
+        "Country code": "tn",
+        "iOS languages": "ar, en",
+        "Android languages": "ar, en"
+    },
+    {
+        "Country name": "Turkey",
+        "Country code": "tr",
+        "iOS languages": "tr, en",
+        "Android languages": "tr, en"
+    },
+    {
+        "Country name": "Uganda",
+        "Country code": "ug",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Ukraine",
+        "Country code": "ua",
+        "iOS languages": "uk, en",
+        "Android languages": "uk, en"
+    },
+    {
+        "Country name": "United Arab Emirates",
+        "Country code": "ae",
+        "iOS languages": "ar, en",
+        "Android languages": "ar, en"
+    },
+    {
+        "Country name": "United Kingdom",
+        "Country code": "gb",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "United States",
+        "Country code": "us",
+        "iOS languages": "us, sp",
+        "Android languages": "us, sp"
+    },
+    {
+        "Country name": "Uruguay",
+        "Country code": "uy",
+        "iOS languages": "sp, en",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Vanuatu",
+        "Country code": "vu",
+        "iOS languages": "fr, en",
+        "Android languages": "fr, en"
+    },
+    {
+        "Country name": "Venezuela",
+        "Country code": "ve",
+        "iOS languages": "sp, en",
+        "Android languages": "sp, en"
+    },
+    {
+        "Country name": "Viet Nam",
+        "Country code": "vn",
+        "iOS languages": "vi, en",
+        "Android languages": "vi, en"
+    },
+    {
+        "Country name": "Zambia",
+        "Country code": "zm",
+        "iOS languages": "en",
+        "Android languages": "en"
+    },
+    {
+        "Country name": "Zimbabwe",
+        "Country code": "zw",
+        "iOS languages": "en",
+        "Android languages": "en"
+    }
+]

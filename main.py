@@ -1,77 +1,157 @@
 import json
+from typing import Optional
 
 
-def generate() -> None:
-    with open("countries_with_languages.json", "r") as file:
-        countries_with_languages: list[dict] = json.loads(file.read())
+class Collector:
+    countries_filename: str = None
+    languages_filename: str = None
 
-    with open("world_countries.json", "r") as file:
-        world_countries: list[dict] = json.loads(file.read())
+    @staticmethod
+    def default_language() -> dict:
+        return {
+            "name": "English (International)",
+            "code": "en",
+            "native": "English"
+        }
 
-    with open("languages.json", "r") as file:
-        languages: list[dict] = json.loads(file.read())
+    @staticmethod
+    def to_list(string: str) -> list[str]:
+        return string.replace(' ', '').replace('-', '').split(',')
 
-    with open("other_languages.json", "r") as file:
-        other_languages: list[dict] = json.loads(file.read())
+    @classmethod
+    def read(cls, filename: str) -> list[dict]:
+        with open(filename, "r") as file:
+            return json.loads(file.read())
+
+    @classmethod
+    def get_countries(cls) -> list[dict]:
+        return cls.read(cls.countries_filename)
+
+    @classmethod
+    def get_languages(cls) -> list[dict]:
+        return cls.read(cls.languages_filename)
+
+    @classmethod
+    def get_country_by_code(cls, countries: list[dict], code: str) -> Optional[dict]:
+        raise NotImplementedError
+
+
+class GitHub(Collector):
+    countries_filename: str = "countries_github.json"
+    languages_filename: str = "languages_github.json"
+
+    @classmethod
+    def get_country_by_code(cls, countries: list[dict], code: str) -> Optional[dict]:
+        for item in countries:
+            if item['country_code_name'].lower() == code.lower():
+                return item
+
+    @classmethod
+    def get_language_by_code(cls, languages: list[dict], code: str) -> Optional[dict]:
+        for item in languages:
+            if item['code'].lower() == code.lower():
+                return item
+
+
+class Appstore(Collector):
+    countries_filename: str = "countries_appstore.json"
+    languages_filename: str = "languages_appstore.json"
+
+    @classmethod
+    def get_country_by_code(cls, countries: list[dict], code: str) -> Optional[dict]:
+        for item in countries:
+            if item['Country code'].lower() == code.lower():
+                return item
+
+    @classmethod
+    def get_language_codes_by_country(cls, country: dict) -> list[str]:
+
+        ios_languages = cls.to_list(country['iOS languages'])
+
+        android_languages = cls.to_list(country['Android languages'])
+
+        return list(set(ios_languages + android_languages))
+
+    @classmethod
+    def get_language_by_code(cls, languages: list[dict], code: str) -> Optional[dict]:
+        for item in languages:
+            if item['Language code '].lower() == code.lower():
+                return item
+
+
+class World(Collector):
+    countries_filename: str = "countries_world.json"
+
+
+def processing() -> list[dict]:
+
+    countries_world = World.get_countries()
+    countries_github = GitHub.get_countries()
+    countries_appstore = Appstore.get_countries()
+    languages_appstore = Appstore.get_languages()
+    languages_github = GitHub.get_languages()
 
     prepared_countries = []
 
-    for country_item in countries_with_languages:
+    for item in countries_world:
 
-        country = None
-        if country_item.get("country_code_name"):
-            country = [x for x in world_countries if x['alpha2'].lower() == country_item['country_code_name'].lower()]
+        language_codes = []
+
+        country = Appstore.get_country_by_code(countries_appstore, item['alpha2'])
+        if country:
+            language_codes = Appstore.get_language_codes_by_country(country)
+
+        if not country:
+            country = GitHub.get_country_by_code(countries_github, item['alpha2'])
             if country:
-                country = country[0]
+                language_codes = Collector.to_list(country.get('lang_code', ''))
 
-        if country_item.get('lang_code'):
-            language = [x for x in languages if x['code'].lower() == country_item['lang_code'].lower()]
-
-        elif not country_item.get('lang_code') and country_item.get('country_code_name'):
-            language = [x for x in languages if x['code'].lower() == country_item['country_code_name'].lower()]
-
-        else:
-            language = None
-
-        if language:
-            language = language[0]
-
-        if not country and not language:
-            print(country_item)
+        if not country:
+            print(f'Not found country:{item}')
             continue
 
-        prepared_countries.append(
-            dict(
-               country_iso=country['id'] if country else country_item['country_code'],
-               country_code=country['alpha2'] if country else country_item['country_code_name'],
-               country_en=country['en'] if country else country_item['country_name'],
-               country_ru=country['ru'] if country else None,
-               language_code=language['code'] if language else country_item.get('lang_code'),
-               language_native=language['nativeName'] if language else None,
-            )
-        )
+        languages = []
 
-    for prepared_country in prepared_countries:
-        _other_languages = []
-        country = [x for x in other_languages if x['country'].lower() == prepared_country['country_en'].lower()]
-        if country:
-            for lang_name in country[0]['languages']:
-                language = [x for x in languages if x['name'].lower() == lang_name.lower()]
+        for code in language_codes:
+            if code:
+                language = Appstore.get_language_by_code(languages_appstore, code)
+                native_language = GitHub.get_language_by_code(languages_github, code)
+
+                if not language and not native_language:
+                    print(f"Language not found: {code}: {country}")
+                    continue
+
                 if language:
-                    if language[0]['code'] == prepared_country['language_code']:
-                        continue
-                    _other_languages.append(
+                    languages.append(
                         dict(
-                            language_code=language[0]['code'],
-                            language_native=language[0]['nativeName']
+                            name=language['Language name '].capitalize(),
+                            code=language['Language code '],
+                            native=native_language['nativeName'].capitalize() if native_language else None
                         )
                     )
-        prepared_country['other_languages'] = _other_languages
+                else:
+                    languages.append(
+                        dict(
+                            name=native_language['name'].capitalize(),
+                            code=native_language['code'],
+                            native=native_language['nativeName'].capitalize() if native_language else None
+                        )
+                    )
 
-    with open("countries.json", "w") as file:
+        prepared_country = dict(
+            country_iso=item['id'],
+            country_code=item['alpha2'],
+            country_en=item['en'].capitalize(),
+            country_ru=item['ru'].capitalize(),
+            languages=languages if languages else [Collector.default_language()]
+        )
+
+        prepared_countries.append(prepared_country)
+
+    with open("result.json", "w") as file:
         file.write(json.dumps(prepared_countries, ensure_ascii=False))
 
 
 if __name__ == "__main__":
-    generate()
+    processing()
 

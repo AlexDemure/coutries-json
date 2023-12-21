@@ -1,0 +1,243 @@
+[
+    {
+        "Language name ": "Arabic",
+        "Language code ": "ar"
+    },
+    {
+        "Language name ": "Bengali",
+        "Language code ": "bn",
+        "Comment": "Available in: India"
+    },
+    {
+        "Language name ": "Burmese",
+        "Language code ": "my"
+    },
+    {
+        "Language name ": "Catalan",
+        "Language code ": "ct"
+    },
+    {
+        "Language name ": "Chinese (simplified)",
+        "Language code ": "cn"
+    },
+    {
+        "Language name ": "Chinese (traditional)",
+        "Language code ": "zh"
+    },
+    {
+        "Language name ": "Croatian",
+        "Language code ": "hr"
+    },
+    {
+        "Language name ": "Czech",
+        "Language code ": "cs"
+    },
+    {
+        "Language name ": "Danish",
+        "Language code ": "da"
+    },
+    {
+        "Language name ": "Dutch",
+        "Language code ": "nl"
+    },
+    {
+        "Language name ": "English (Australia)",
+        "Language code ": "au",
+        "Comment": "Available in: Australia, New Zeland"
+    },
+    {
+        "Language name ": "English (Canada)",
+        "Language code ": "ca",
+        "Comment": "Available in: Canada"
+    },
+    {
+        "Language name ": "English (India)",
+        "Language code ": "in",
+        "Comment": "Available in: India"
+    },
+    {
+        "Language name ": "English (International)",
+        "Language code ": "en",
+        "Comment": "Available everywhere if no other English form is available"
+    },
+    {
+        "Language name ": "English (US)",
+        "Language code ": "us",
+        "Comment": "Available in: United States, Japan"
+    },
+    {
+        "Language name ": "Estonian",
+        "Language code ": "et"
+    },
+    {
+        "Language name ": "Finnish",
+        "Language code ": "fi"
+    },
+    {
+        "Language name ": "French",
+        "Language code ": "fr"
+    },
+    {
+        "Language name ": "French (Canada)",
+        "Language code ": "qu",
+        "Comment": "Available in: Canada"
+    },
+    {
+        "Language name ": "German",
+        "Language code ": "de"
+    },
+    {
+        "Language name ": "Greek",
+        "Language code ": "el"
+    },
+    {
+        "Language name ": "Hebrew",
+        "Language code ": "he"
+    },
+    {
+        "Language name ": "Hindi",
+        "Language code ": "hi"
+    },
+    {
+        "Language name ": "Hungarian",
+        "Language code ": "hu"
+    },
+    {
+        "Language name ": "Icelandic",
+        "Language code ": "is"
+    },
+    {
+        "Language name ": "Indonesian",
+        "Language code ": "id"
+    },
+    {
+        "Language name ": "Italian",
+        "Language code ": "it"
+    },
+    {
+        "Language name ": "Japanese",
+        "Language code ": "ja"
+    },
+    {
+        "Language name ": "Kannada",
+        "Language code ": "kn",
+        "Comment": "Available in: India"
+    },
+    {
+        "Language name ": "Khmer",
+        "Language code ": "km"
+    },
+    {
+        "Language name ": "Korean",
+        "Language code ": "ko"
+    },
+    {
+        "Language name ": "Lao",
+        "Language code ": "lo"
+    },
+    {
+        "Language name ": "Latvian",
+        "Language code ": "lv"
+    },
+    {
+        "Language name ": "Lithuanian",
+        "Language code ": "lt"
+    },
+    {
+        "Language name ": "Marathi",
+        "Language code ": "mr",
+        "Comment": "Available in: India"
+    },
+    {
+        "Language name ": "Malay",
+        "Language code ": "ms"
+    },
+    {
+        "Language name ": "Mayalam",
+        "Language code ": "ml",
+        "Comment": "Available in: India"
+    },
+    {
+        "Language name ": "Norwegian",
+        "Language code ": "no"
+    },
+    {
+        "Language name ": "Persian",
+        "Language code ": "fa"
+    },
+    {
+        "Language name ": "Polish",
+        "Language code ": "pl"
+    },
+    {
+        "Language name ": "Portuguese",
+        "Language code ": "pt"
+    },
+    {
+        "Language name ": "Portuguese (Angola)",
+        "Language code ": "ao"
+    },
+    {
+        "Language name ": "Portuguese (Brazil)",
+        "Language code ": "br"
+    },
+    {
+        "Language name ": "Punjabi",
+        "Language code ": "pa",
+        "Comment": "Available in: India"
+    },
+    {
+        "Language name ": "Romanian",
+        "Language code ": "ro"
+    },
+    {
+        "Language name ": "Russian",
+        "Language code ": "ru"
+    },
+    {
+        "Language name ": "Sinhala",
+        "Language code ": "si"
+    },
+    {
+        "Language name ": "Slovak",
+        "Language code ": "sk"
+    },
+    {
+        "Language name ": "Spanish",
+        "Language code ": "es"
+    },
+    {
+        "Language name ": "Spanish (Latin America)",
+        "Language code ": "sp"
+    },
+    {
+        "Language name ": "Swedish",
+        "Language code ": "sv"
+    },
+    {
+        "Language name ": "Tamil",
+        "Language code ": "ta",
+        "Comment": "Available in: India"
+    },
+    {
+        "Language name ": "Telugu",
+        "Language code ": "te",
+        "Comment": "Available in: India"
+    },
+    {
+        "Language name ": "Thai",
+        "Language code ": "th"
+    },
+    {
+        "Language name ": "Turkish",
+        "Language code ": "tr"
+    },
+    {
+        "Language name ": "Ukrainian",
+        "Language code ": "uk"
+    },
+    {
+        "Language name ": "Vietnamese",
+        "Language code ": "vi"
+    }
+]
