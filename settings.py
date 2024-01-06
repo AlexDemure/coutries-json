@@ -1,19 +1,14 @@
 from dataclasses import dataclass
 
-# GEONAMES_CITIES_FILENAME_TXT: str = "cities15000.txt"
-# GEONAMES_CITIES_FILENAME_ZIP: str = "cities15000.zip"
-# GEONAMES_DOWNLOAD_URL: str = "https://download.geonames.org/export/dump"
-# PROXY_FREE_LIST_HOST: str = "https://www.sslproxies.org/"
-
 
 @dataclass
 class LanguageSettings:
-    AVAILABLE_LANGUAGES: list[str] = ('en', 'ru')
+    AVAILABLE_LANGUAGES: list[str] = ("en", "ru")
 
 
 @dataclass
 class SQLiteSettings:
-    SQLITE_DATABASE: str = 'countries.db'
+    SQLITE_DATABASE: str = "countries.db"
     SQLITE_GEONAMES_CITY_TABLE: str = "geo_cities"
     SQLITE_GEONAMES_CITY_KEYS: list[str] = (
         "id",
@@ -52,52 +47,70 @@ class SQLiteSettings:
         "country_id",
         "origin",
         "ascii",
-        "en",
-        "ru",
+        *[language for language in LanguageSettings.AVAILABLE_LANGUAGES],
     )
     SQLITE_COUNTRY_TABLE: str = "countries"
     SQLITE_COUNTRY_KEYS: list[str] = (
         "id",
-        "iso",
-        "en",
-        "ru",
+        *[language for language in LanguageSettings.AVAILABLE_LANGUAGES],
     )
 
     SQLITE_LANGUAGE_TABLE: str = "languages"
-    SQLITE_LANGUAGE_KEYS: list[str] = (
-        "id",
-        "origin",
-        "name"
-    )
+    SQLITE_LANGUAGE_KEYS: list[str] = ("id", "origin", "name")
+
+    SQLITE_M2M_COUNTRY_LANGUAGE_TABLE: str = "country_languages"
+    SQLITE_M2M_COUNTRY_LANGUAGE_KEYS: list[str] = ("id", "country_id", "language_id")
 
 
 @dataclass
 class GeonamesSettings:
     GEONAMES_DIR: str = "geonames"
 
-    GEONAMES_MIN_POPULATION: int = 500000  # Мин. количество населения в городе
+    GEONAMES_MIN_POPULATION: int = 100000  # Мин. количество населения в городе
     GEONAMES_FEATURE_CODES: list[str] = (  # Тип. населенного пункта
-        'PPLC',
-        'PPLA',
-        'PPLA2',
-        'PPLA3',
-        'PPLA4',
-        'PPLA5'
+        "PPLC",
+        "PPLA",
+        "PPLA2",
+        "PPLA3",
+        "PPLA4",
+        "PPLA5",
     )
+
+
+@dataclass
+class StefangabosSettings:
+    STEFANGABOS_DIR: str = "stefangabos"
+
+
+@dataclass
+class GitHubSettings:
+    GITHUB_DIR: str = "github"
+
+
+@dataclass
+class StoreSettings:
+    STORE_DIR: str = "stores"
 
 
 @dataclass
 class ProxySettings:
-    PROXY_HOSTS: list[str] = (
-        "****:8000",
-    )
-    PROXY_USERNAME: str = "****"
-    PROXY_PASSWORD: str = "****"
+    PROXY_HOSTS: list[str] = ("***.***.***.**:8000",)
+    PROXY_USERNAME: str = "******"
+    PROXY_PASSWORD: str = "******"
 
 
-configs = [LanguageSettings, SQLiteSettings, GeonamesSettings, ProxySettings]
+configs = [
+    LanguageSettings,
+    SQLiteSettings,
+    GeonamesSettings,
+    StefangabosSettings,
+    GitHubSettings,
+    StoreSettings,
+    ProxySettings,
+]
 
 
 @dataclass
 class Settings(*configs):
-    STATIC_DIR = 'static'
+    STATIC_DIR = "static"
+    RETURN_FILENAME = "countries"

@@ -1,24 +1,28 @@
 import re
 from io import BytesIO
-from typing import Any, Optional
+from typing import Any
+from typing import Optional
 from zipfile import ZipFile
 
 import requests
 from bs4 import BeautifulSoup
 
 from settings import Settings
-from utils import check_file, check_dir, string_to_csv, tuple_to_dict, txtf, zipf
+from utils import check_dir
+from utils import check_file
+from utils import string_to_csv
+from utils import tuple_to_dict
+from utils import txtf
+from utils import zipf
 
 
 class _Geonames:
-
     download_url: str = None
     dir: str = None
     filename: Optional[str] = None
 
     @classmethod
     def download(cls, filename: Optional[str] = None) -> None:
-
         if not filename:
             filename = cls.filename
 
@@ -36,7 +40,7 @@ class _Geonames:
 
         archive = ZipFile(BytesIO(response.content))
 
-        with open(filepath, 'w') as file:
+        with open(filepath, "w") as file:
             file.write(archive.read(txtf(filename)).decode())
 
         print(f"[Geonames] Finish download file {filepath}")
@@ -53,7 +57,6 @@ class _Geonames:
 
 
 class GeonamesCity(_Geonames):
-
     download_url: str = "https://download.geonames.org/export/dump"
 
     dir = f"{Settings.STATIC_DIR}/{Settings.GEONAMES_DIR}"
@@ -90,13 +93,15 @@ class GeonamesCity(_Geonames):
 
         rows = [
             tuple_to_dict(Settings.SQLITE_GEONAMES_CITY_KEYS, row)
-            for row in rows if row
+            for row in rows
+            if row
         ]
 
         rows = [
-            row for row in rows
-            if int(row['population']) >= Settings.GEONAMES_MIN_POPULATION
-            and row['feature_code'] in Settings.GEONAMES_FEATURE_CODES
+            row
+            for row in rows
+            if int(row["population"]) >= Settings.GEONAMES_MIN_POPULATION
+            and row["feature_code"] in Settings.GEONAMES_FEATURE_CODES
         ]
 
         if rows:
@@ -108,7 +113,6 @@ class GeonamesCity(_Geonames):
 
 
 class GeonamesAlternate(_Geonames):
-
     download_url: str = "https://download.geonames.org/export/dump/alternatenames"
 
     dir: str = f"{Settings.STATIC_DIR}/{Settings.GEONAMES_DIR}/alternatenames"
@@ -119,8 +123,8 @@ class GeonamesAlternate(_Geonames):
 
         countries = [
             tag.string.split(".zip")[0]
-            for tag in BeautifulSoup(response.text, 'html.parser').findAll('a')
-            if re.findall('.zip', tag.text)
+            for tag in BeautifulSoup(response.text, "html.parser").findAll("a")
+            if re.findall(".zip", tag.text)
         ]
 
         return countries
@@ -147,30 +151,35 @@ class GeonamesAlternate(_Geonames):
         """
 
         def rules(_row: dict):
-            if not _row['language_id']:  # Если не указан язык альтернативного названия
+            if not _row["language_id"]:  # Если не указан язык альтернативного названия
                 return False
 
-            if _row['language_id'] not in Settings.AVAILABLE_LANGUAGES:  # Если не указан язык из тех что мы собираем.
+            if (
+                _row["language_id"] not in Settings.AVAILABLE_LANGUAGES
+            ):  # Если не указан язык из тех что мы собираем.
                 return False
 
-            if _row['is_colloquial']:  # Не сленг
+            if _row["is_colloquial"]:  # Не сленг
                 return False
 
-            if _row['is_historic']:  # Не историческая
+            if _row["is_historic"]:  # Не историческая
                 return False
 
-            if re.findall(r"(?i)city", _row['alternate_name']):  # Нет в названии City
+            if re.findall(r"(?i)city", _row["alternate_name"]):  # Нет в названии City
                 return False
 
             return True
 
         rows = cls.read(filename)
 
-        rows = [row for row in rows if row and int(row[1]) in city_ids]  # Только записи которые подходят по городам
+        rows = [
+            row for row in rows if row and int(row[1]) in city_ids
+        ]  # Только записи которые подходят по городам
 
         rows = [
             tuple_to_dict(Settings.SQLITE_GEONAMES_ALTER_KEYS, row)
-            for row in rows if row
+            for row in rows
+            if row
         ]
 
         rows = [row for row in rows if rules(row)]
@@ -181,5 +190,3 @@ class GeonamesAlternate(_Geonames):
             print(f"[Geonames] Alternates not found for {filename}: {city_ids}")
 
         return rows
-
-

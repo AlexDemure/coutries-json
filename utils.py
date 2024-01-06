@@ -7,11 +7,11 @@ from functools import partial
 
 def chunks(iterate, size):
     for i in range(0, len(iterate), size):
-        yield iterate[i:i + size]
+        yield iterate[i : i + size]
 
 
 def multiprocess(f, *args, iterable):
-    with multiprocessing.Pool(len(iterable)) as pool:
+    with multiprocessing.Pool(os.cpu_count()) as pool:
         results = pool.map(partial(f, *args), iterable)
     return results
 
@@ -38,7 +38,11 @@ def check_dir(dirpath: str) -> None:
 
 
 def string_to_csv(string: str) -> list[tuple]:
-    return list(csv.reader(string.split("\n"), delimiter='\t'))
+    return list(csv.reader(string.split("\n"), delimiter="\t"))
+
+
+def string_to_list(string: str) -> list[str]:
+    return list(filter(None, string.replace(" ", "").replace("-", "").split(",")))
 
 
 def txtf(filename: str) -> str:
@@ -47,3 +51,7 @@ def txtf(filename: str) -> str:
 
 def zipf(filename) -> str:
     return f"{filename}.zip"
+
+
+def jsonf(filename: str) -> str:
+    return f"{filename}.json"
