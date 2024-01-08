@@ -1,13 +1,13 @@
 import time
 from collections import Counter
-from typing import Optional
+from typing import Optional, Union
 
 import requests
 from requests.auth import HTTPProxyAuth
 from unidecode import unidecode
 
-from proxy import Proxy
-from settings import Settings
+from src.core.settings import Settings
+from src.proxy import Proxy
 
 
 class OSM:
@@ -32,16 +32,17 @@ class OSM:
             cls._request(params, proxies, auth)
 
     @classmethod
-    def request(cls, proxy: Proxy, params: dict) -> dict:
+    def request(cls, proxy: Union[Proxy, None], params: dict) -> dict:
         while True:
             response = cls._request(params=params)
             if response.status_code != 429:
                 break
 
-            for proxies in proxy.proxies:
-                response = cls._request(params=params, proxies=proxies, auth=proxy.auth)
-                if response.status_code != 429:
-                    break
+            if proxy:
+                for proxies in proxy.proxies:
+                    response = cls._request(params=params, proxies=proxies, auth=proxy.auth)
+                    if response.status_code != 429:
+                        break
 
             if response.status_code != 429:
                 break
@@ -61,7 +62,7 @@ class OSMCity(OSM):
         return f"""[out:json];node[place~"^(city|town|village)$"][{name}];out body;"""
 
     @classmethod
-    def get(cls, proxy: Proxy, city: dict) -> dict:
+    def get(cls, proxy: Union[Proxy, None], city: dict) -> dict:
         names = dict(origin=city["origin"], ascii=city["ascii"])
         for language in Settings.AVAILABLE_LANGUAGES:
             names[language] = city[language]

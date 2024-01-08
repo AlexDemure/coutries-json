@@ -3,26 +3,27 @@ from datetime import datetime
 
 from unidecode import unidecode
 
-from crud import CityCRUD
-from crud import CountryCRUD
-from crud import CountryLanguageCRUD
-from crud import GeonamesAlternateCRUD
-from crud import GeonamesCityCRUD
-from crud import LanguageCRUD
-from crud import get_connection
-from crud import get_cursor
-from geonames import GeonamesAlternate
-from geonames import GeonamesCity
-from github import GitHubCountry
-from github import GitHubLanguage
-from openstreetmaps import OSMCity
-from proxy import Proxy
-from settings import Settings
-from stefangabos import StefangabosCountry
-from stores import StoreCountry
-from stores import StoreLanguage
-from utils import jsonf
-from utils import multiprocess
+from src.clients.geonames import GeonamesAlternate
+from src.clients.geonames import GeonamesCity
+from src.clients.github import GitHubCountry
+from src.clients.github import GitHubLanguage
+from src.clients.openstreetmaps import OSMCity
+from src.clients.stefangabos import StefangabosCountry
+from src.clients.stores import StoreCountry
+from src.clients.stores import StoreLanguage
+from src.crud.cities import CityCRUD
+from src.crud.countries import CountryCRUD
+from src.crud.countries import CountryLanguageCRUD
+from src.crud.geonames import GeonamesAlternateCRUD
+from src.crud.geonames import GeonamesCityCRUD
+from src.crud.languages import LanguageCRUD
+from src.proxy import Proxy
+from src.storages.sqlite import get_connection
+from src.storages.sqlite import get_cursor
+from src.utils import jsonf
+from src.utils import multiprocess
+
+from .settings import Settings
 
 
 def main():
@@ -221,7 +222,10 @@ def main():
         connection.commit()
 
     # Шаг №8 - Дозаполнения информации по городам из OpenStreetMap
-    proxy = Proxy()
+    if Settings.PROXY:
+        proxy = Proxy()
+    else:
+        proxy = None
 
     cities = CityCRUD.get_list_without_translation(get_cursor(connection))
 

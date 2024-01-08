@@ -1,10 +1,10 @@
 import json
 
-from settings import Settings
-from utils import jsonf
+from src.core.settings import Settings
+from src.utils import jsonf
 
 
-class _Github:
+class _GithubClient:
     dir = f"{Settings.STATIC_DIR}/{Settings.GITHUB_DIR}"
 
     filename: str = None
@@ -15,7 +15,7 @@ class _Github:
             return json.loads(file.read())
 
 
-class GitHubCountry(_Github):
+class GitHubCountry(_GithubClient):
     filename: str = "countries"
 
     @classmethod
@@ -30,7 +30,7 @@ class GitHubCountry(_Github):
         ]
 
 
-class GitHubLanguage(_Github):
+class GitHubLanguage(_GithubClient):
     filename: str = "languages"
 
     @classmethod

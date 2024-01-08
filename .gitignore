@@ -1,3 +1,2 @@
 .venv
-*.db
-static/geonames
+src/static/geonames

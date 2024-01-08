@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from requests.auth import HTTPProxyAuth
 
-from settings import Settings
+from src.core.settings import Settings
 
 
 class _SSLProxyDeprecated:

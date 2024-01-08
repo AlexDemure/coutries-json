@@ -1,11 +1,11 @@
 import json
 
-from settings import Settings
-from utils import jsonf
-from utils import string_to_list
+from src.core.settings import Settings
+from src.utils import jsonf
+from src.utils import string_to_list
 
 
-class _Store:
+class _StoreClient:
     dir = f"{Settings.STATIC_DIR}/{Settings.STORE_DIR}"
 
     filename: str = None
@@ -16,7 +16,7 @@ class _Store:
             return json.loads(file.read())
 
 
-class StoreCountry(_Store):
+class StoreCountry(_StoreClient):
     filename: str = "countries"
 
     @classmethod
@@ -36,7 +36,7 @@ class StoreCountry(_Store):
         ]
 
 
-class StoreLanguage(_Store):
+class StoreLanguage(_StoreClient):
     filename: str = "languages"
 
     @classmethod

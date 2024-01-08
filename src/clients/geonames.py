@@ -7,16 +7,16 @@ from zipfile import ZipFile
 import requests
 from bs4 import BeautifulSoup
 
-from settings import Settings
-from utils import check_dir
-from utils import check_file
-from utils import string_to_csv
-from utils import tuple_to_dict
-from utils import txtf
-from utils import zipf
+from src.core.settings import Settings
+from src.utils import check_dir
+from src.utils import check_file
+from src.utils import string_to_csv
+from src.utils import tuple_to_dict
+from src.utils import txtf
+from src.utils import zipf
 
 
-class _Geonames:
+class _GeonamesClient:
     download_url: str = None
     dir: str = None
     filename: Optional[str] = None
@@ -56,7 +56,7 @@ class _Geonames:
         raise NotImplementedError
 
 
-class GeonamesCity(_Geonames):
+class GeonamesCity(_GeonamesClient):
     download_url: str = "https://download.geonames.org/export/dump"
 
     dir = f"{Settings.STATIC_DIR}/{Settings.GEONAMES_DIR}"
@@ -112,7 +112,7 @@ class GeonamesCity(_Geonames):
         return rows
 
 
-class GeonamesAlternate(_Geonames):
+class GeonamesAlternate(_GeonamesClient):
     download_url: str = "https://download.geonames.org/export/dump/alternatenames"
 
     dir: str = f"{Settings.STATIC_DIR}/{Settings.GEONAMES_DIR}/alternatenames"

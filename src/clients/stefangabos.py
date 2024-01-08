@@ -1,7 +1,7 @@
 import json
 
-from settings import Settings
-from utils import jsonf
+from src.core.settings import Settings
+from src.utils import jsonf
 
 
 class StefangabosCountry:

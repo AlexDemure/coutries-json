@@ -3,7 +3,7 @@ from dataclasses import dataclass
 
 @dataclass
 class LanguageSettings:
-    AVAILABLE_LANGUAGES: list[str] = ("en", "ru")
+    AVAILABLE_LANGUAGES: list[str] = ("en", "de")
 
 
 @dataclass
@@ -66,7 +66,7 @@ class SQLiteSettings:
 class GeonamesSettings:
     GEONAMES_DIR: str = "geonames"
 
-    GEONAMES_MIN_POPULATION: int = 100000  # Мин. количество населения в городе
+    GEONAMES_MIN_POPULATION: int = 1000000  # Мин. количество населения в городе
     GEONAMES_FEATURE_CODES: list[str] = (  # Тип. населенного пункта
         "PPLC",
         "PPLA",
@@ -94,9 +94,14 @@ class StoreSettings:
 
 @dataclass
 class ProxySettings:
-    PROXY_HOSTS: list[str] = ("***.***.***.**:8000",)
-    PROXY_USERNAME: str = "******"
-    PROXY_PASSWORD: str = "******"
+    PROXY: bool = False
+    PROXY_HOSTS: list[str] = (
+        "188.130.201.52:8000",
+        "188.130.201.191:8000",
+        "188.130.202.21:8000",
+    )
+    PROXY_USERNAME: str = "VLMHbX"
+    PROXY_PASSWORD: str = "FbJeb5"
 
 
 configs = [
@@ -112,5 +117,5 @@ configs = [
 
 @dataclass
 class Settings(*configs):
-    STATIC_DIR = "static"
+    STATIC_DIR = "src/static"
     RETURN_FILENAME = "countries"
