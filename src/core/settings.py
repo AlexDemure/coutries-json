@@ -96,12 +96,10 @@ class StoreSettings:
 class ProxySettings:
     PROXY: bool = False
     PROXY_HOSTS: list[str] = (
-        "188.130.201.52:8000",
-        "188.130.201.191:8000",
-        "188.130.202.21:8000",
+        "***.***.***.**:8000",
     )
-    PROXY_USERNAME: str = "VLMHbX"
-    PROXY_PASSWORD: str = "FbJeb5"
+    PROXY_USERNAME: str = "*****"
+    PROXY_PASSWORD: str = "*****"
 
 
 configs = [
